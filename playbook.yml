@@ -1,0 +1,14 @@
+---
+- name: deploiement Parme
+  hosts: dev
+  tasks:
+    - name: ping
+      ping:
+  #roles:
+   # - database
+    #- create-directory
+    #- processor
+    #- backend
+    #- ihm-bo
+    #- restart-tomcat
+...

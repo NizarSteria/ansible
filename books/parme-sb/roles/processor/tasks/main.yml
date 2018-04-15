@@ -1,0 +1,16 @@
+---
+- name: depot du war
+  copy: src=../wars/processor.war dest=app/tc/Webapp
+
+- name: depot des fichiers de conf 
+  copy: src={{ item }} dest=app/tc/ressources/processor directory_mode=yes
+  with_fileglob:
+    - ../conf/tc-proc/*
+
+
+
+#- name: indication du backend url
+ # replace: dest=app/tc/ressources/processor/application.properties regexp='^backendurl' replace='{{ backendurl }}'
+
+
+

@@ -1,0 +1,15 @@
+---
+- name: deploiement Parme
+  hosts: dev
+  remote_user: root
+  vars:
+   backendurl: backend_uri=http://localhost:8080/backend/api  
+ 
+  roles:
+    - scripts-sql
+    - directory-check
+    - processor
+    - backend
+    - ihm-bo
+    - restart-tomcat
+...

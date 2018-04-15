@@ -1,0 +1,13 @@
+---
+- name: depot du war
+  copy: src=../wars/backend.war dest=app/tc/Webapp
+
+- name: depot des fichiers de conf backend 
+  copy: src={{ item }} dest=app/tc/ressources/backend directory_mode=yes
+  with_fileglob:
+    - ../conf/backend/*
+
+
+
+
+ 

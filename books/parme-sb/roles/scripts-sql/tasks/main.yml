@@ -1,0 +1,16 @@
+---
+ - name: folder exists
+   file: path=app/tc/home/dltcapad/flyway-4.0/sql state=directory
+
+ 
+ - name: copy scripts sql 
+   copy: src={{ item }} dest=app/tc/home/dltcapad/flyway-4.0/sql directory_mode=yes
+   with_fileglob:
+     - scripts/sql/*
+
+
+ #- name: flyway
+ #command: flyway -configFile="/app/tc/tc-flyway.conf" migrate
+
+
+

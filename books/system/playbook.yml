@@ -1,0 +1,11 @@
+---
+- name: deploiement Parme
+  hosts: dev
+  remote_user: root
+  vars:
+   backendurl: ...  
+ 
+  roles:
+    - database
+   
+...

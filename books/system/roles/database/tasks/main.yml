@@ -1,0 +1,16 @@
+---
+ - name: install python mysql bindings
+   apt: name=python-mysqldb state=installed
+   become: yes
+
+ - name: create a new database with name tcdb
+   mysql_db: 
+     name: tcdb
+     state: present
+     login_user: root
+     login_password: root
+ 
+
+
+
+

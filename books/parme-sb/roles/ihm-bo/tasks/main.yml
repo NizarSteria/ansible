@@ -1,0 +1,12 @@
+---
+- name: depot du war
+  copy: src=../wars/tcihm.war dest=app/tc/Webapp
+
+- name: depot des fichiers de conf ihm
+  copy: src={{ item }} dest=app/tc/ressources/ihm-bo directory_mode=yes
+  with_fileglob:
+    - ../conf/ihm-bo/*
+
+
+- name: indication du backend url
+  replace: dest=app/tc/ressources/ihm-bo/application.properties regexp='^backendurl' replace='{{ backendurl }}'

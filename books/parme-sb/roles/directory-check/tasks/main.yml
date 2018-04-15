@@ -1,0 +1,15 @@
+---
+ - name: create directory
+   file: path=app/tc/Webapp state=directory
+
+ - file: path=app/tc/ressources/backend state=directory
+
+ - file: path=app/tc/ressources/processor state=directory
+
+ - file: path=app/tc/ressources/ihm-bo state=directory
+
+ - file: path=conf/tc-proc state=directory
+
+ - file: path=conf/ihm-bo state=directory
+
+ - file: path=conf/backend state=directory
