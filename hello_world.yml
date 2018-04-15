@@ -1,0 +1,7 @@
+# ansible-playbook hello_world.yml -i 'local,' --connection=local
+
+- hosts:
+  - local
+  tasks:
+  - name: Create a directory
+    file: path=hello_world state=directory
