@@ -4,7 +4,7 @@ Automates application deployments.|||  IT orchestration solutions for IT departm
                                        systems and cloud infrastructure.
 Reporting                         |||            
 AirBack (Gestion des roles,       ||| 
-   permissions,                   |||      
+   permissions, ...)              |||      
 Satellite                         |||      
 Agentless                         |||       YES
 WinRM                             |||       YES
