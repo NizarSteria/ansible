@@ -1,5 +1,7 @@
 XL Deploy                         |||            Ansible (YES/NO)
 ----------------------------------------------------------------
+Automates application deployments.|||  IT orchestration solutions for IT departments to deploy and manage applications,
+                                       systems and cloud infrastructure.
 Reporting                         |||            
 AirBack (Gestion des roles,       ||| 
    permissions,                   |||      
@@ -11,7 +13,19 @@ API (Automatiser/ Deployement)    |||
 Jenkins Pipel                     |||       YES
 Mapping Automatique               |||      
 Tag                               |||         
-Plugin liquibase .                |||        Role
+Plugin liquibase .                |||       Role
 Data Base / File System           ||| 
 Traçabilité                       |||        
 LOGS                              ||| 
+
+
+
+
+
+Premium Tower .       Standard Tower
+$14000 per year        $10000 per year
+
+
+Ansible is more popular than XL Deploy with the smallest companies (1-50) employees and startups. With medium sized companies (51-1000 employees) Ansible is more popular. With large companies (1000+ employees) XL Deploy is more popular.
+
+https://siftery.com/product-comparison/ansible-vs-xl-deploy 
