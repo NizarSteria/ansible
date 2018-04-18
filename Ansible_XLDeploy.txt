@@ -1,0 +1,13 @@
+XL Deploy                         |||            Ansible (YES/NO)
+----------------------------------------------------------------
+Reporting                         |||            
+AirBack (Gestion des roles,       ||| 
+   permissions,                   |||      
+Satellite                         |||      
+Agentless                         |||       YES
+WinRM                             |||       YES
+Multi Env (Dictionnaire)          |||      
+API (Automatiser/ Deployement)    |||      
+Jenkins Pipel                     |||       YES
+Reporting                         |||      
+Reporting                         |||      
