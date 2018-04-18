@@ -9,5 +9,9 @@ WinRM                             |||       YES
 Multi Env (Dictionnaire)          |||      
 API (Automatiser/ Deployement)    |||      
 Jenkins Pipel                     |||       YES
-Reporting                         |||      
-Reporting                         |||      
+Mapping Automatique               |||      
+Tag                               |||         
+Plugin liquibase .                |||        Role
+Data Base / File System           ||| 
+Traçabilité                       |||        
+LOGS                              ||| 
